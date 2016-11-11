@@ -355,7 +355,7 @@ have a fixed width and height (but it's not required).
 	font-size: 0px;
 	text-align: left;
 	overflow: hidden;
-	height: 73px;
+	height: 74px;
 }
 .nutritions__item {
 	display: block;
@@ -577,10 +577,12 @@ have a fixed width and height (but it's not required).
 }
 .menu-item .nutritions {
 	margin-top: 10px;
-	height: 63px;
+	height: 64px;
+	padding: 0 20px;
 }
 .menu-item .nutritions__item {
 	margin-right: 10px;
+	width: 40px;
 }
 .menu-item .nutritions__item.bob {
 	margin-right: 0;
@@ -623,8 +625,11 @@ have a fixed width and height (but it's not required).
 }
 .total-box .nutritions {
 	margin: 0;
-	height: 83px;
+	height: 84px;
 	margin-top: 15px;
+}
+.total-box .nutritions__item {
+	width: 60px;
 }
 .total-box .nutritions__item div {
 	width: 60px;
@@ -747,6 +752,18 @@ have a fixed width and height (but it's not required).
 	margin-top: 20px;
 	padding: 10px;
 }
+
+#contacts .note {
+	display: none;
+	box-sizing: border-box;
+	margin: 20px 0;
+	padding: 30px 5px;
+	border: 3px dashed #272424;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+}
+
 
 
 
